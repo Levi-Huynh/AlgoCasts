@@ -12,6 +12,22 @@
 //   4
 //   buzz
 
-function fizzBuzz(n) {}
+function fizzBuzz(n) {
+    
+    for( let i=1; i<=n; i++)
+    //gott set the 5 & 3 first b/c n might be multple of 5 or 3 & both want to call
+    //fizzbuzz first
+ if (i%5===0 && i%3 ===0 ) console.log("fizzbuzz");
+  else if(i%5 ===0) console.log("buzz");
+  else if ( i%3 ===0 ) console.log("fizz");
+  else console.log(i);
+  
+  
+   
+  
+  
+  
+ 
+}
 
 module.exports = fizzBuzz;
