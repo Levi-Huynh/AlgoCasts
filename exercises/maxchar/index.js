@@ -8,6 +8,7 @@
 function maxChar(str) {
 
     const charMap = {};
+    //let placeholder number max start at zero
     let max = 0;
     //maxChar is char responsible for that max usage
     let maxChar = '';
